@@ -1,0 +1,91 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: #f9fafb;
+  border-radius: 10px;
+  border: 1px solid #f3f4f6;
+  transition: border-color 0.2s;
+}
+
+.item:first-child {
+  animation: slideIn 0.35s ease;
+  border-color: #bbf7d0;
+  background: #f0fdf4;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+  min-width: 0;
+}
+
+.name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sub {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.catatan {
+  font-size: 11px;
+  color: #6b7280;
+  font-style: italic;
+  margin-top: 1px;
+}
+
+.badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+
+.time {
+  font-size: 11px;
+  color: #9ca3af;
+  flex-shrink: 0;
+  min-width: 36px;
+  text-align: right;
+}
+
+.empty {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 13px;
+  padding: 32px 0;
+  line-height: 1.7;
+}
