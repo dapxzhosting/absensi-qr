@@ -128,10 +128,10 @@ Ini akan mengisi 6 siswa contoh ke Firestore secara otomatis.
 | `id` | string | `0054321789` |
 | `nisn` | string | `0054321789` |
 | `name` | string | `Dafa Alfiansyah` |
-| `kelas` | string | `X XPL 1` |
+| `kelas` | string | `XI RPL 1` |
 | `gender` | string | `Laki-laki` |
 | `ttl` | string | `Jakarta, 20 Mei 2010` |
-| `alamat` | string | `Jl. Utan Panjang 3, Jakarta Pusat` |
+| `alamat` | string | `Jl. Merdeka, Jakarta Pusat` |
 | `noHp` | string | `081234560001` |
 | `fotoUrl` | string | *(kosongkan)* |
 
